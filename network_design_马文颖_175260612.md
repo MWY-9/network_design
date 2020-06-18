@@ -84,55 +84,113 @@
 <br/>&emsp;&emsp;具体的地址分配方案和子网划分方案如下:
 <br/>&emsp;&emsp;1号公寓:192.168.0.0-192.168.0.255  
 <br/>其中各层楼可均分这254个地址（除去两个特殊地址），所以各楼层地址分配如下：
-<br/>&emsp;&emsp;一楼:192.168.0.1-192.168.0.42
-<br/>&emsp;&emsp;二楼:192.168.0.43-192.168.0.84
-<br/>&emsp;&emsp;三楼:192.168.0.85-192.168.0.126
-<br/>&emsp;&emsp;四楼:192.168.0.127-192.168.0.168
-<br/>&emsp;&emsp;五楼:192.168.0.169-192.168.0.210
-<br/>&emsp;&emsp;六楼:192.168.0.211-192.168.0.252
+<br/>&emsp;&emsp;一楼:192.168.0.1-192.168.0.30
+<br/>&emsp;&emsp;二楼:192.168.0.31-192.168.0.60
+<br/>&emsp;&emsp;三楼:192.168.0.61-192.168.0.90
+<br/>&emsp;&emsp;四楼:192.168.0.91-192.168.0.120
+<br/>&emsp;&emsp;五楼:192.168.0.121-192.168.0.150
+<br/>&emsp;&emsp;六楼:192.168.0.151-192.168.0.180
 <br/>这样还余下2个地址没有分配，留待应急。
 <br/>2号公寓:192.168.1.0-192.168.1.255
-<br/>&emsp;&emsp;一楼:192.168.1.1-192.168.1.42
-<br/>&emsp;&emsp;二楼:192.168.1.43-192.168.1.84
-<br/>&emsp;&emsp;三楼:192.168.1.85-192.168.1.126
-<br/>&emsp;&emsp;四楼:192.168.1.127-192.168.1.168
-<br/>&emsp;&emsp;五楼:192.168.1.169-192.168.1.210
-<br/>&emsp;&emsp;六楼:192.168.1.211-192.168.1.252
+<br/>&emsp;&emsp;一楼:192.168.1.1-192.168.1.30
+<br/>&emsp;&emsp;二楼:192.168.1.31-192.168.1.60
+<br/>&emsp;&emsp;三楼:192.168.1.61-192.168.1.90
+<br/>&emsp;&emsp;四楼:192.168.1.91-192.168.1.120
+<br/>&emsp;&emsp;五楼:192.168.1.121-192.168.1.150
+<br/>&emsp;&emsp;六楼:192.168.1.151-192.168.1.180
 <br/>3号公寓:192.168.2.0-192.168.2.255
-<br/>&emsp;&emsp;一楼:192.168.2.1-192.168.2.42
-<br/>&emsp;&emsp;二楼:192.168.2.43-192.168.2.84
-<br/>&emsp;&emsp;三楼:192.168.2.85-192.168.2.126
-<br/>&emsp;&emsp;四楼:192.168.2.127-192.168.2.168
-<br/>&emsp;&emsp;五楼:192.168.2.169-192.168.2.210
-<br/>&emsp;&emsp;六楼:192.168.2.211-192.168.2.252
+<br/>&emsp;&emsp;一楼:192.168.2.1-192.168.2.30
+<br/>&emsp;&emsp;二楼:192.168.2.31-192.168.2.60
+<br/>&emsp;&emsp;三楼:192.168.2.61-192.168.2.90
+<br/>&emsp;&emsp;四楼:192.168.2.91-192.168.2.120
+<br/>&emsp;&emsp;五楼:192.168.2.121-192.168.2.150
+<br/>&emsp;&emsp;六楼:192.168.2.151-192.168.2.180
 <br/>4号公寓:192.168.3.0-192.168.3.255
-<br/>&emsp;&emsp;一楼:192.168.3.1-192.168.3.42
-<br/>&emsp;&emsp;二楼:192.168.3.43-192.168.3.84
-<br/>&emsp;&emsp;三楼:192.168.3.85-192.168.3.126
-<br/>&emsp;&emsp;四楼:192.168.3.127-192.168.3.168
-<br/>&emsp;&emsp;五楼:192.168.3.169-192.168.3.210
-<br/>&emsp;&emsp;六楼:192.168.3.211-192.168.3.252
+<br/>&emsp;&emsp;一楼:192.168.3.1-192.168.3.30
+<br/>&emsp;&emsp;二楼:192.168.3.31-192.168.3.60
+<br/>&emsp;&emsp;三楼:192.168.3.61-192.168.3.90
+<br/>&emsp;&emsp;四楼:192.168.3.91-192.168.3.120
+<br/>&emsp;&emsp;五楼:192.168.3.121-192.168.3.150
+<br/>&emsp;&emsp;六楼:192.168.3.151-192.168.3.180
 <br/>5号公寓:192.168.4.0-192.168.4.255
-<br/>&emsp;&emsp;一楼:192.168.4.1-192.168.4.42
-<br/>&emsp;&emsp;二楼:192.168.4.43-192.168.4.84
-<br/>&emsp;&emsp;三楼:192.168.4.85-192.168.4.126
-<br/>&emsp;&emsp;四楼:192.168.4.127-192.168.4.168
-<br/>&emsp;&emsp;五楼:192.168.4.169-192.168.4.210
-<br/>&emsp;&emsp;六楼:192.168.4.211-192.168.4.252
+<br/>&emsp;&emsp;一楼:192.168.4.1-192.168.4.30
+<br/>&emsp;&emsp;二楼:192.168.4.31-192.168.4.60
+<br/>&emsp;&emsp;三楼:192.168.4.61-192.168.4.90
+<br/>&emsp;&emsp;四楼:192.168.4.91-192.168.4.120
+<br/>&emsp;&emsp;五楼:192.168.4.121-192.168.4.150
+<br/>&emsp;&emsp;六楼:192.168.4.151-192.168.4.180
 <br/>6号公寓:192.168.5.0-192.168.5.255
-<br/>&emsp;&emsp;一楼:192.168.5.1-192.168.5.42
-<br/>&emsp;&emsp;二楼:192.168.5.43-192.168.5.84
-<br/>&emsp;&emsp;三楼:192.168.5.85-192.168.5.126
-<br/>&emsp;&emsp;四楼:192.168.5.127-192.168.5.168
-<br/>&emsp;&emsp;五楼:192.168.5.169-192.168.5.210
-<br/>&emsp;&emsp;六楼:192.168.5.211-192.168.5.252
+<br/>&emsp;&emsp;一楼:192.168.5.1-192.168.5.30
+<br/>&emsp;&emsp;二楼:192.168.5.31-192.168.5.60
+<br/>&emsp;&emsp;三楼:192.168.5.61-192.168.5.90
+<br/>&emsp;&emsp;四楼:192.168.5.91-192.168.5.120
+<br/>&emsp;&emsp;五楼:192.168.5.121-192.168.5.150
+<br/>&emsp;&emsp;六楼:192.168.5.151-192.168.5.180
 6. IP地址分配方案分析
-<br/>&emsp;&emsp;该方案所用的地址段为192.168.0.0-192.168.5.255，子网掩码为255.255.255.0。6栋楼共分配了6个子网，一栋楼包含的256个地址，每个楼层分配42个地址。总共可利用地址数目为1536个，实际利用的地址数目为1512个，地址利用率约为98.44%。
-<br/>&emsp;&emsp;该方案的地址段较宽，可利用的网络地址较多。并且子网络地址在各个楼层分布较为均匀，这样就使每个楼栋的可拓展性得到相应的提高，不存在不可拓展网络的问题。因为在学校公寓里，拓展性相对要求较高，网络管理可以只针对一个楼栋，如无特别要求无需对每个楼层进行管理。
+<br/>&emsp;&emsp;该方案所用的地址段为192.168.0.0-192.168.5.255，子网掩码为255.255.255.0。6栋楼共分配了6个子网，一栋楼包含的256个地址，每个楼层分配30个地址。总共可利用地址数目为1524个，实际利用的地址数目为1080个，地址利用率约为70.87%。
+<br/>&emsp;&emsp;该方案的地址段较宽，可利用的网络地址较多。并且子网络地址在各个楼层分布较为均匀，这样就使每个楼栋的可拓展性得到相应的提高，不存在不可拓展网络的问题。因为在学校公寓里，拓展性相对要求较高，而每幢楼还有74个IP地址未分配，可供将来扩展。网络管理可以只针对一个楼栋，如无特别要求无需对每个楼层进行管理。
 7. Cisco Packet Tracer
 <br/>&emsp;&emsp;PC机、服务器、路由器、交换机等设备模拟连接图：
 <br/>![](http://m.qpic.cn/psc?/V14aMFsz1pP4hB/wZu0*zqyEz4NDRuTFUPfB60xo2I1n9eRKU1lycRypD74B5nISICKIpId1Z3nNbnOyYn1HoDZLpZyPLiRXaqqXA!!/mnull&bo=OwMUAzsDFAMRCT4!&rf=photolist&t=5)
-8. 设计分析
+8. 关键代码
+<br/>1)交换机：
+<br/>Switch>enable
+<br/>Switch#configure terminal
+<br/>Enter configuration commands, one per lineEnd with CNTL/Z.
+<br/>Switch(config)#
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/4, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/4, changed state to up
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/5, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/5, changed state to up
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/6, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/6, changed state to up
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/7, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/7, changed state to up
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/8, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/8, changed state to up
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/9, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/9, changed state to up
+<br/>Switch con0 is now available
+<br/>2）路由器：
+<br/>Router>enable
+<br/>Router#configure terminal
+<br/>Enter configuration commands, one per line.
+<br/>End with CNTL/Z.
+<br/>Router(config)#interface FastEthernet0/0
+<br/>Router(config-if)#ip address 192.168.1.10 255.255.255.0
+<br/>Router (config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config)#interface FastEthernet0/1
+<br/>Router(config-if)#ip address 192.168.2.10 255.255.255.0
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/0
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/1
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config)#interface FastEthernet0/0
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/1
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/0
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/1
+<br/>Router(config-if)#
+<br/>Router(config-if)#exit
+<br/>Router(config) #interface FastEthernet0/0
+<br/>Router(config-if) #no shut down
+<br/>Router(config-if)#
+<br/>%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+<br/>%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+<br/>Router(config-if)#exit
+<br/>Router(config)#interface FastEthernet0/1
+<br/>Router (config-if) #no shut down
+9. 设计分析
 <br/>1)可用性和可靠性
 <br/>&emsp;&emsp;第一级交换机采用的双交换机方式,可以保证这个网络的可用性和可靠性，确保在第一级交换机出现问题不至于使整个网络停止工作。通过校园网与Internet相连，安全性得到保证。
 <br/>2)安全性和易管理性
@@ -142,4 +200,9 @@
 ### 五、课程设计总结
 <br/>&emsp;&emsp;这几天的课设过程，我也学习到许多新的技能，比如对git和GitHub的了解，以及对markdown编辑器的运用。在一开始的时候，确实感觉无从下手，但是看完相关资料与教程后，我一步步慢慢来，也逐渐上手了。在此过程中，我也遇到过问题，比如图片在markdown中显示不了，通过查阅资料以及老师和同学的帮助，我顺利解决了这个问题。我也进一步了解到学生公寓的拓扑结构，明白我们所学知识都要与实际相结合，这样才能把所学运用到实处，所以，一切都要从实际情况出发！
 <br/>&emsp;&emsp;通过本次网络工程与组网课程设计，我对计算机网络的理解更加深刻，对于网络的划分也有了更多的了解。我也明白一个学校的网络设计非常复杂，需要考虑到方方面面，不仅在当下，还要放眼于未来！
+### 六、参考文献
+<br/>[1]Markdown的常用语法(个人总结)[EB/OL].https://www.jianshu.com/p/82e730892d42
+<br/>[2]Git和GitHub使用教程[EB/OL].https://www.jianshu.com/p/296d22275cdd
+<br/>[3]GIT版本管理看这一篇就够了[EB/OL].https://www.jianshu.com/p/0e9d07ec76f9
+<br/>[4]谢希仁.计算机网络（第5版）[M].北京:电子工业出版社.2008年1月
 #### 本文档地址：https://github.com/MWY-9/network_design/blob/master/network_design_%E9%A9%AC%E6%96%87%E9%A2%96_175260612.md
